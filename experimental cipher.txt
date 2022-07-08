@@ -1,0 +1,45 @@
+//I'm thinking of flipping the alphabet a few times and subbing out characters at almost random
+a b c d e f g h i j k l m n o p q r s t u v w x y z // normal alphabet
+
+therubberduckyissafe -> therubberduckyissafe
+
+! @ # $ % ^ & * ( ) a b c d e f g h i j k l m n o p // first 10 characters replaced by special characters and shifted
+
+therubberduckyissafe -> j*%hk@@%h$k#ao(ii!^%
+
+p o n m l k j i h g f e d c b a ) ( * & ^ % $ # @ ! // flipped
+
+therubberduckyissafe -> &i
+
+p { & * N S s ; y q c x 8 1 # @ + / 2 z 4 J o u . , // attempt at random substitution. why random here? I don't know.
+
+therubberduckyissafe ->
+
+, . u o J 4 z 2 / + @ # 1 8 x c q y ; s S N * & { p // flipped, just because
+
+therubberduckyissafe -> s2JyS..JyoSu@{/;;,4J
+
+honestly, this really only looks complicated to me, and other humans. in truth, this is just random substitution.
+Let's try again.
+
+All of the characters we have easy access to on our qwerty keyboards.
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+1 2 3 4 5 6 7 8 9 0 - = [ ] \ ; ' , . /
+! @ # $ % ^ & * ( ) _ + { } | : " < > ?
+
+We could jumble all this together, but I think a more elegant solution is to start tacking some on as junk data,
+and have our encryption be bloated with unintelligible things that we can chop off. Let's start with some backwards alphabet
+
+az by cx dw ev fu gt hs ir jq kp lo mn nm ol pk qj ri sh tg uf ve wd xc yb za
+
+therubberduckyissafe -> tghsevriufbybyevridwufcxkpybirshazfuev
+
+this is already looking better to start. Let's add one before as well. This one will go more randomly rather than pairing a
+flipped alphabet. The real kicker for this one is that I can intentionally use characters that have been used before in this
+cryptogram because they are junk characters.
+
+8az 3by Rcx )ev *fu 1gt Whs 0ir 8jq 3kp 6lo 9mn -nm zol Epk Dqj wri 5sh 2tg Duf gve Swd Wxc vyb Wza
+
+therubberduckyissafe -> 2tgWhs)evwriDuf3by3by)evwridwufcxkpybirshazfuev
+
